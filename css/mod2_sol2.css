@@ -1,0 +1,96 @@
+ * {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  }
+ .row {
+   width: 100%;
+ }
+ h1 {
+   margin-bottom: 15px;
+   text-align: center;
+   font-size: 175%;
+ }
+ .phead1 {
+   border: 1px solid black;
+   background-color: #a5f2f3; /*A52A2A;*/
+   font-family: Arial;
+   margin-top: 0px;
+   padding-top: 0px;
+   margin-bottom: 5px;
+   width: 22%;
+   font-size: 125%;
+   float: right;
+   text-align: center;
+ }
+ .phead2 {
+   border: 1px solid black;
+   background-color: #e3cf13;
+   font-family: Arial;
+   margin-top: 0px;
+   padding-top: 0px;
+   margin-bottom: 5px;
+   width: 22%;
+   font-size: 125%;
+   float: right;
+   text-align: center;
+ }
+ .phead3 {
+   border: 1px solid black;
+   background-color: #30bcff;
+   font-family: Arial;
+   margin-top: 0px;
+   padding-top: 0px;
+   margin-bottom: 5px;
+   width: 22%;
+   font-size: 125%;
+   float: right;
+   text-align: center;
+ }
+ .pcont {
+   padding: 5px;
+ }
+
+@media (min-width: 992px ) {
+  .lgscr-col-wid {
+   float: left;
+   background-color: #C0C0C0;
+   margin: 5px;
+   padding-top: 0px;
+   padding-right: 0px;
+   margin-top: 10px;
+   margin-bottom: 30px;
+   border: 2px solid black;
+  }
+  .lgscr-col-wid {
+    width: 32%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .mdscr-col-wid, .mdscr-colf-wid {
+   float: left;
+   background-color: #C0C0C0;
+   margin: 5px;
+   margin-bottom: 20px;
+   border: 2px solid black;
+  }
+  .mdscr-col-wid {
+    width: 45%;
+  }
+  .mdscr-colf-wid {
+   width: 91%; 
+  }
+}
+
+@media (max-width: 767px) {
+  .smlscr-col-wid {
+   float: left;
+   background-color: #C0C0C0;
+   margin: 5px;
+   margin-bottom: 10px;
+   border: 2px solid black;
+  }
+  .smlscr-col-wid {
+    width: 100%;
+  }
+}
